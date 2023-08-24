@@ -42,11 +42,12 @@ Options for the command are typed after the initiall shell command using the
 .SH EXAMPLE
 ./hsh [command] [options]
 $ ls -l
-The shell command allowa input of options [-l] that display additional features.
+The shell command allows input of options [-l] that display additional features.
 
 .SH BUGS
 The Bugs found are considerably few
 
 .SH AUTHOR
+GitHub Usernames;
 -  `victorpreston`
 -  `Mmjosh`
