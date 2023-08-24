@@ -25,7 +25,6 @@ int _strcmp(char *first, char *second)
 	return (first[i] - second[i]);
 }
 
-
 /**
  *_strcat - concatenation of 2 strs
 

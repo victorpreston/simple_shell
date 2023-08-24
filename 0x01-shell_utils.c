@@ -14,7 +14,6 @@
  */
 
 
-
 /** 
  * parse_command - identifies the command type
  * @command: shows to the command that is to be passed
