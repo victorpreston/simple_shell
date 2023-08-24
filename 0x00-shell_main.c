@@ -1,5 +1,9 @@
 #include "shell.h"
 #include <stdio.h>
+#include <fcntl.h>
+#include <signal.h>
+#include <sys/types.h>
+#include <string.h>
 
 	char **commands = NULL;
 	char *line = NULL;
