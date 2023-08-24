@@ -1,0 +1,52 @@
+.TH SHELLBY 1 "August 2023" "ALX SE PROJECTS" "0x16 C - Simple_Shell projects"
+
+.SH COPYRIGHT
+hsh \- is a ALX SE Project, second group project
+
+.SH NAME
+.B simple_shell \- simple UNIX command interpreter made in C programming language 
+
+.SH SYNOPSIS
+The name of the file is specified [file] after options
+$ /hsh [options] [file]
+
+.SH DESCRIPTION
+Shell is a simple command interpreter that executes commands read from the standard input.
+Clone of sh
+
+.SH Return Value
+Returns the status of the previously executed command
+
+.SH PATH
+looks for path in env variables for executable file location in the shell
+Displays the location of the executable file/ program file.
+
+.SH 
+
+.B Invocation
+.in +2n
+simple shell can be invoked in two ways:
+	- Non-interactively.
+	- Interactively.
+
+If the invocation in standard input is not connected to terminal\commandline, it reads &  executes commands recieved orderly.
+
+If invoked with standard input connected to a terminal\commandline, an interactive shell is opened.[execution]
+While executing interactively, this shell displays the prompt \"($) "\ showing [ready to read a command]
+
+.SH OPTIONS
+.B simple_shell
+Options for the command are typed after the initiall shell command using the 
+ '-' {minus}  symbol.
+
+.SH EXAMPLE
+./hsh [command] [options]
+$ ls -l
+The shell command allowa input of options [-l] that display additional features.
+
+.SH BUGS
+The Bugs found are considerably few
+
+.SH AUTHOR
+-  `victorpreston`
+-  `Mmjosh`
