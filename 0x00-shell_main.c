@@ -46,7 +46,7 @@ int main(int argc __attribute__((unused)), char **argv)
 			current_command = tokenizer(commands[i], " ");
 			if (current_command[0] == NULL)
 			{
-				free(c_cmd);
+				free(current_command);
 				break;
 			}
 			type_command = parse_command(current_command[0]);
