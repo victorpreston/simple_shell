@@ -46,18 +46,6 @@ typedef struct map
 } function_map;
 
 
-/** global history_counter **/
-int hist;
-
-/** global_environemnt **/
-extern char **environ;
-
-/** global name of program **/
-char *name;
-
-/*** global linked lists and aliases ***/
-alias_t *aliases;
-
 /***extern global****/
 extern char **environ;
 extern char *line;
