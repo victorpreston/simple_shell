@@ -1,7 +1,6 @@
 #include "shell.h"
 #include <stdio.h>
 
-
 	char **commands = NULL;
 	char *line = NULL;
 	char *shell_name = NULL;

@@ -14,7 +14,6 @@
  *
  * Return: nothing
  */
-
 void initializer(char **current_command, int type_command)
 {
 	pid_t PID;

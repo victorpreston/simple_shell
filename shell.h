@@ -72,6 +72,7 @@ int _strlen(char *);
 void _strcpy(char *, char *);
 void print(char *, int);
 char **tokenizer(char *, char *);
+ssize_t custom_getline(char **lineptr, size_t *n, FILE *stream);
 
 /**Helpers_2**/
 int _strcspn(char *, char *);

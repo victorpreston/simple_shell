@@ -16,7 +16,6 @@
  *Return: returns next token in line for tokenization
  *
  */
-
 char *_strtok_r(char *string, char *delim, char **save_ptr)
 {
 	char *finish;
