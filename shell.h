@@ -1,13 +1,10 @@
 #ifndef __SHELL_H
 #define __SHELL_H
 
-/*****************************************************HEADER FILE************************************************************/
-/*
+/**********************HEADER FILE***************************/
+/**
  * File_name: __SHELL_H
- * Auth:`victorpreston`
- * 	`Mmjosh`
- *
- * ALX PROJECTS
+ * Auth:`victorpreston` & `Mmjosh`
  *
  */
 
@@ -23,13 +20,13 @@
 #include <string.h>
 
 
-//alx-simple_shell constants
+/*alx-simple_shell constants*/
 #define INVALID_COMMAND -1
 #define EXTERNAL_COMMAND 1
 #define INTERNAL_COMMAND 2
 #define PATH_COMMAND 3
 
-//define prompts
+/*define prompts*/
 #define min(x, y) (((x) < (y)) ? (x) : (y))
 
 /**funcs**/
@@ -48,45 +45,6 @@ typedef struct map
 	void (*func)(char **command);
 } function_map;
 
-/**
- * struct list_s: - defines a linked list
- * @dir: /pwd/- for dir
- * @next: points to the next struct on list_s
- */
-typedef struct list_s
-{
-	char *dir;
-	struct list_s *next;
-} list_t;
-
-/**
- *
- * struct alias_s - defines aliases
- * @name: name of the file in alias
- * @value: points at the value of the alias
- * @next: pointer to the next alias in aliases
- *
- * ALX
- */
-typedef struct alias_s
-{
-	char *name;
-	char *value;
-	struct alias_s *next;
-} alias_t;
-
-/**
- * struct builtin_s - defines buletin_s
- * @name:name of command buletin
- * @f:  func pointer
- *
- * ALX
- */
-typedef struct builtin_s
-{
-	char *name;
-	int (*f)(char **argv, char **front);
-} builtin_t;
 
 /** global history_counter **/
 int hist;
@@ -143,7 +101,6 @@ void env(char **);
 /**Main_funcs**/
 extern void initializer(char **current_command, int type_command);
 extern void non_interactive(void);
-
-
 #endif
-/*****************************************************HEADER FILE************************************************************/
+
+/********************HEADER FILE************************/
