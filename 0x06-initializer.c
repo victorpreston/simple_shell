@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 #include <unistd.h>
 #include <errno.h>
 #include <stdio.h>

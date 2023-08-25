@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 #include <sys/stat.h>
 #include <sys/wait.h>
 #include <stdlib.h>

@@ -1,4 +1,4 @@
-#include "shell.h"
+#include "main.h"
 #include <stdio.h>
 #include <fcntl.h>
 #include <signal.h>
