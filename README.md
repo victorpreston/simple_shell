@@ -1,23 +1,3 @@
-0x16. C - Simple Shell
-======================
-
--   By Julien Barbier
--   Project to be done in teams of 2 people.
-
-Concepts
---------
-
-*For this project, students are expected to look at these concepts:*
-
--   [Everything you need to know to start coding your own shell](https://alx-intranet.hbtn.io/concepts/64)
--   [Approaching a Project](https://alx-intranet.hbtn.io/concepts/350)
-
-
-
-### Output
-
--   Unless specified otherwise, your program **must have the exact same output** as `sh` (`/bin/sh`) as well as the exact same error output.
--   The only difference is when you print an error, the name of the program must be equivalent to your `argv[0]` (See below)
 
 Authors
 --------
@@ -33,3 +13,35 @@ Built-ins;
 Usage
 ```./hsh```
 ```($)ls```
+More Info
+---------
+
+### Output
+
+-   Unless specified otherwise, your program **must have the exact same output** as `sh` (`/bin/sh`) as well as the exact same error output.
+-   The only difference is when you print an error, the name of the program must be equivalent to your `argv[0]` (See below)
+
+Example of error with `sh`:
+
+```
+$ echo "qwerty" | /bin/sh
+/bin/sh: 1: qwerty: not found
+$ echo "qwerty" | /bin/../bin/sh
+/bin/../bin/sh: 1: qwerty: not foundSame error with your program `hsh`:
+
+```
+$ echo "qwerty" | ./hsh
+./hsh: 1: qwerty: not found
+$ echo "qwerty" | ./././hsh
+./././hsh: 1: qwerty: not found
+$
+
+```
+
+
+Your shell will be compiled this way:
+
+```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+
+```
