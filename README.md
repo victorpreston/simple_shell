@@ -1,8 +1,8 @@
 
 Authors
 --------
--  `victorpreston` : https://github.com/victorpreston
--  `Mmjosh`        : https://github.com/Mmjosh
+-  `victorpreston` : https://github.com/victorpreston	: Victor Preston
+-  `Mmjosh`        : https://github.com/Mmjosh		: Joshua Morara
 
 FEATURES
 
