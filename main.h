@@ -45,7 +45,10 @@ typedef struct map
 	void (*func)(char **command);
 } function_map;
 
-
+typedef struct passinfo
+{
+	char *path;
+} info_t;
 /***extern global****/
 extern char **environ;
 extern char *line;
@@ -90,6 +93,9 @@ void env(char **);
 /**Main_funcs**/
 extern void initializer(char **current_command, int type_command);
 extern void non_interactive(void);
+
+/**file as commandline argument**/
+int is_cmd(info_t *info, char *path);
 #endif
 
 /********************HEADER FILE************************/
