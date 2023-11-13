@@ -96,6 +96,10 @@ extern void non_interactive(void);
 
 /**file as commandline argument**/
 int is_cmd(info_t *info, char *path);
+
+/***Set env & unset env****/
+int _unsetenv(const char *name);
+int _setenv(const char *name, const char *value, int overwrite)
 #endif
 
 /********************HEADER FILE************************/
