@@ -200,5 +200,5 @@ handle commands with arguments
 - Your shell should take a file as a command line argument
 
 ## Authors
-* [Patrick Deyoreo](https://github.com/patrickdeyoreo)
-* [Banu Sapakova](https://github.com/banuaksom)
+* [Mmjosh](https://github.com/Mmjosh)
+* [Victor Preston](https://github.com/victorpreston)
