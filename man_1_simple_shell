@@ -1,5 +1,5 @@
 .\" Man page for hsh
-.TH HSH 1 "28 August 2019" "Holberton" "Holberton Shell Man Page"
+.TH HSH 1 "2023" "ALX" "ALX Shell Man Page"
 .SH NAME
 .B hsh
 \- a simple command interpreter
@@ -80,6 +80,6 @@ No known bugs.
 Report bugs to ...
 .SH AUTHORS
 .PP
-Banu Sapakova (banuaksom@gmail.com)
+Victor Preston (prestonvictor25@gmail.com)
 .PP
-Patrick DeYoreo (pdeyoreo@gmail.com)
+Mjosh(mmjosh@gmail.com)
