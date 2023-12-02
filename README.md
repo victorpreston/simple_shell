@@ -1,7 +1,11 @@
-# Implementation of sh in C programming language
+![img](https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png)
+
+# simple_shell
 
 ## Overview
-Simple Shell is a Holberton School pair project. The general goal of the project is to write a simple UNIX command interpreter. 
+> C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. This projects covers the concepts of shell development!
+
+Simple Shell is an ALX School pair project. The general goal of the project is to write a simple UNIX command interpreter. 
 ## Content
 * [Installation](#Installation)
 * [Builtins](#Builtins)
