@@ -5,7 +5,7 @@
 ## Overview
 > C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on. This projects covers the concepts of shell development!
 
-Simple Shell is an ALX School pair project. The general goal of the project is to write a simple UNIX command interpreter. 
+Simple Shell is an ALX School pair project. The general goal of the project is to write a simple UNIX command interpreter.
 ## Content
 * [Installation](#Installation)
 * [Builtins](#Builtins)
@@ -30,7 +30,7 @@ gcc *.c -o hsh
 | `cd` | `cd [DIRECTORY]` | Change the current working directory |
 | `env` | `env` | Print the environment |
 | `exit` | `exit [STATUS]` | Exit the shell |
-| `help` | `help [BUILTIN]` | Print a help messages for built-ins | 
+| `help` | `help [BUILTIN]` | Print a help messages for built-ins |
 | `setenv` | `setenv VARIABLE VALUE` | Set an environment variable |
 | `unsetenv` | `unsetenv VARIABLE` | Unset an environment variable |
 
@@ -102,7 +102,7 @@ $
 
 ## Compilation
 ```
-gcc -Wall -Werror -Wextra -pedantic *.c -o hsh 
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
 ## Testing
 - Interactive mode:
@@ -170,7 +170,7 @@ handle commands with arguments
 7. Write a blogpost "What happens when you type ls -l in the shell"
 
 ### Advanced
-1. Test suite 
+1. Test suite
 - Contribute to a test suite for your shell
 
 2. Simple shell 0.2.1
@@ -191,16 +191,16 @@ handle commands with arguments
 7. ;
 - Handle the commands separator ;
 
-8. alias 
+8. alias
 - Implement the alias builtin command
 
 19. Comments
 - Handle comments (#)
 
-10. help 
+10. help
 - Implement the help built-in
 
-11. File as an input 
+11. File as an input
 - Your shell should take a file as a command line argument
 
 ## Authors
