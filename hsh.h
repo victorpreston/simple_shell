@@ -47,4 +47,4 @@ void open_script(info_t *info);
 
 void _sigint(int signal);
 
-#endif /* SHELL_H */
+#endif /*SHELL_H*/
