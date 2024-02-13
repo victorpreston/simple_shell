@@ -18,7 +18,7 @@ Simple Shell is an ALX School pair project. The general goal of the project is t
 
 ## Installation
 ```
-git clone https://github.com/patrickdeyoreo/simple_shell.git
+git clone https://github.com/victorpreston/simple_shell.git
 cd simple_shell
 gcc *.c -o hsh
 ```
